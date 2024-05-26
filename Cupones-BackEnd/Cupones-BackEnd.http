@@ -1,0 +1,6 @@
+@Cupones_BackEnd_HostAddress = http://localhost:5232
+
+GET {{Cupones_BackEnd_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
