@@ -10,15 +10,15 @@ namespace Cupones.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class CampañasDeleteController : ControllerBase
+    public class CampañasSearchController : ControllerBase
     {
         public readonly ICampañasService _campañasService;
 
-        public CampañasDeleteController(ICampañasService campañasService)
+        public CampañasSearchController(ICampañasService campañasService)
         {
             _campañasService = campañasService;
         }
 
-   
+      
     }
 }
